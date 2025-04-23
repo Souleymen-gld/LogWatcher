@@ -13,25 +13,20 @@ LogWatcher est un outil léger en Bash pour analyser rapidement les logs Apache/
 📁 Génération automatique d’un rapport lisible (output/rapport.txt)
 
 📁 Structure
-bash
-Copier
-Modifier
 .
 ├── logs/
 │   └── access.log       # Log brut à analyser
 ├── output/
 │   └── rapport.txt      # Rapport généré
 └── logwatcher.sh        # Script principal
+
+
 🚀 Utilisation
-bash
-Copier
-Modifier
 bash logwatcher.sh
 Le script va analyser logs/access.log et générer un fichier output/rapport.txt.
 
 🔧 Dépendances
 Bash
-
 awk, grep, sort, uniq, head
 
 ⚠️ Compatible Linux / macOS / Git Bash sur Windows
